@@ -1,7 +1,7 @@
 import unittest
 class Test1(unittest.TestCase):
     def runTest(self):
-        rint('test1 is passed')
+        print('test1 is passed')
 class Test2(unittest.TestCase):
     def runTest(self):
         print('test2 is passed')
