@@ -4,7 +4,7 @@ class Test1(unittest.TestCase):
         print('test1 is passed')
     def not_runTest(self):
         print('not_test1 is passed')
-    not_runTest.slow = 1
+    #not_runTest.slow = 1
 class Test2(unittest.TestCase):
     def runTest(self):
         print('test2 is passed')
