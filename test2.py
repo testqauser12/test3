@@ -1,6 +1,10 @@
-class Complex:
-    def __init__(self, realpart, imagpart):
-    self.r = realpart
-    self.i = imagpart
-x = Complex(3.0, -4.5)
-x.r, x.i
+class Car(object):
+
+    wheels = 4
+
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+mustang = Car('Ford', 'Mustang')
+print mustang.wheels
