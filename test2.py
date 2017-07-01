@@ -13,9 +13,9 @@ class Cat(object):
 
     poroda = dvornjagka
 
-    def __init__(self, make, model):
-        self.make = make
-        self.model = model
+    def __init__(self, makes, models):
+        self.make = makes
+        self.model = models
 
 kitty = Cat('de', 'dew')
 print (kitty.poroda)
