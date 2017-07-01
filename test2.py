@@ -1,12 +1,6 @@
-class Test1:
-
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
-        print('1 test')
-
-class Test2:
-
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
-        print('2 test')
-x=Test1()
+class Complex:
+    def __init__(self, realpart, imagpart):
+    self.r = realpart
+    self.i = imagpart
+x = Complex(3.0, -4.5)
+x.r, x.i
