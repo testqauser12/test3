@@ -11,11 +11,11 @@ print (mustang.wheels)
 
 class Cat(object):
 
-    poroda = dvornjagka
+    poroda = 5
 
     def __init__(self, makes, models):
-        self.make = makes
-        self.model = models
+        self.makes = makes
+        self.models = models
 
 kitty = Cat('de', 'dew')
 print (kitty.poroda)
