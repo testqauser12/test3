@@ -7,4 +7,4 @@ class Car(object):
         self.model = model
 
 mustang = Car('Ford', 'Mustang')
-print mustang.wheels
+print (mustang.wheels)
