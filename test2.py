@@ -8,7 +8,7 @@ class Car(object):
         self.model = model
 
 mustang = Car('Ford', 'Mustang')
-if sys.argv[2] == 1:
+if sys.argv[1] == 1:
     print ('test1')
 
 class Cat(object):
@@ -20,5 +20,5 @@ class Cat(object):
         self.models = models
 
 kitty = Cat('de', 'dew')
-if sys.argv[2] == 2:
+if sys.argv[1] == 2:
     print ('test2')
