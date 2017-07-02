@@ -8,8 +8,8 @@ class Car(object):
         self.model = model
 
 mustang = Car('Ford', 'Mustang')
-if sys.argv == mustang:
-    print (sys.argv.wheels)
+if sys.argv[3] == mustang:
+    print (sys.argv[3].wheels)
 
 class Cat(object):
 
@@ -20,5 +20,5 @@ class Cat(object):
         self.models = models
 
 kitty = Cat('de', 'dew')
-if sys.argv == kitty:
-    print (sys.argv.poroda)
+if sys.argv[3] == kitty:
+    print (sys.argv[3].poroda)
