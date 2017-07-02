@@ -9,7 +9,7 @@ class Car(object):
 
 mustang = Car('Ford', 'Mustang')
 if sys.argv == mustang:
-    print (sys.argv.wheels)
+    print ('test1')
 
 class Cat(object):
 
@@ -21,4 +21,4 @@ class Cat(object):
 
 kitty = Cat('de', 'dew')
 if sys.argv == kitty:
-    print (sys.argv.poroda)
+    print ('test2')
