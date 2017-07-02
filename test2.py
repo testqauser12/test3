@@ -1,5 +1,5 @@
 import sys
-class sys.argv(object):
+class Car(object):
 
     wheels = 4
 
@@ -7,10 +7,11 @@ class sys.argv(object):
         self.make = make
         self.model = model
 
-mustang = sys.argv('Ford', 'Mustang')
-print (mustang.wheels)
+mustang = Car('Ford', 'Mustang')
+sys.argv = mustang
+print (sys.argv.wheels)
 
-class sys.argv(object):
+class Cat(object):
 
     poroda = 5
 
@@ -18,5 +19,6 @@ class sys.argv(object):
         self.makes = makes
         self.models = models
 
-kitty = sys.argv('de', 'dew')
-print (kitty.poroda)
+kitty = Cat('de', 'dew')
+sys.argv = kitty
+print (sys.argv.poroda)
