@@ -15,7 +15,6 @@ class TestStringMethods(unittest.TestCase):
       s = 'hello world'
       self.assertEqual(s.split(), ['hello', 'world'])
       print('test3')
-      # Проверим, что s.split не работает, если разделитель - не строка
       with self.assertRaises(TypeError):
           s.split(2)
 
